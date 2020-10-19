@@ -1,0 +1,57 @@
+<h1> Responsive Web Design Project - Build a Tribute Page
+</h1>
+<body id='main'>
+
+  <header>
+    <section id="title">
+      <h1>Michael Jackson</h1>
+      <h2 id="tribute-info">The King of Pop</h2>
+      <div id="img-div">
+        <img src="https://cdn-images.threadless.com/threadless-media/artist_shops/shops/sete/products/643982/shirt-1530240469-49f9638711d075ddfa432acc5a84a3e7.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiZmZmZmZmIn1dXX0="
+        id="image"/
+        alt="A small tribute to the King of Pop!">
+        This is a tribute to Michael Jackson, to honor his memory.
+        <p for="image" id="image-label"><em>
+        Known as the "King of Pop," Michael Joseph Jackson was a best-selling
+        American singer, songwriter and dancer. As a child, Jackson became the lead
+        singer of his family's popular Motown group, the Jackson 5. He went on to a solo
+        career of astonishing worldwide success, delivering No.</em></p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <div id="main-content">
+      <article id="time-line">
+        <h2>Here's a time line of Michael Jackson's life:</h2>
+        <ul id="time-line-list" class="text-content">
+          <li><time datetime="1958">1958</time> - Born Aug. 29 in Gary, Ind. He is the seventh child of Joseph and Katherine Esther Jackson.</li>
+          <li><time datetime="1969">1969</time> - In Los Angeles, the Jackson 5 debut as Motown’s newest act. In December, the group’s single “I Want You Back” hits No. 1 on the Billboard Top 40 Chart.</li>
+          <li><time datetime="1970">1970</time> - Jackson 5 hits “ABC, “The Love You Save” and “I’ll Be There” all reach No. 1 on Billboard charts.</li>
+          <li><time datetime="1972">1972</time> - First No. 1 solo hit “Ben,” a song about a movie rat.</li>
+          <li><time datetime="1974">1974</time> - Introduces a dance step called the robot on “Soul Train.” The step sweeps the country.</li>
+          <li><time datetime="1978">1978</time> - Played “The Scarecrow” in the movie musical “The Wiz,” alongside Diana Ross, Richard Pryor and Nipsey Russell.</li>
+          <li><time datetime="1979">1979</time> - Jackson’s “Off the Wall” solo album catapults him to superstar status.</li>
+          <li><time datetime="1982">1982</time> - “Thriller” is released, eventually selling more than 100 million copies. It makes Jackson the biggest pop music star of the decade. The record becomes one of the best-selling albums of all time.</li>
+          <li><time datetime="1983">1983</time> - “The Jacksons,” Michael wows the crowd with a rendition of “Billie Jean,” which included the jaw-dropping moonwalk.</li>
+          <li><time datetime="1984">1984</time> - Jackson’s hair catches on fire during filming of a Pepsi commercial.</li>
+          <li><time datetime="2008">2008</time> - "Thriller 25" and fan-curated compilation "King of Pop" are released.</li>
+          <li><time datetime="2009">2009</time> - Jackson dies at the age of 50</li>
+        </ul>
+      </article>
+      <hr/>
+      <article id="tribute" class="text-content">
+        <p><em>The meaning of life is contained in every single expression of life. It is present in the infinity of forms and phenomena that exist in all of creation.”</em></p>
+        <p>-- Michael Jackson</p>
+      </article>
+      <hr/>
+    </div>
+  </main>
+
+  <footer>
+    <div id="footer-content">
+      <secion>If you have time, you should read more about this incredible human being on his <a href="https://https://en.wikipedia.org/wiki/Michael_Jackson" id="tribute-link" target="_blank">Wikipedia entry</a>.
+      </section>
+    </div>
+  </footer>
+</body>
